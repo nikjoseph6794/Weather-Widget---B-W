@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+drawable clouds
+drawable ic_launcher_background
+drawable weather_clear
+drawable weather_clouds
+drawable weather_drizzle
+drawable weather_fog
+drawable weather_icon
+drawable weather_rain
+drawable weather_snow
+drawable weather_thunder
+drawable weather_unknown
+drawable widget_background
+drawable widget_bg_rounded
+id weather_icon
+id weather_text
+id weather_title
+layout widget_2x1
+layout widget_5x1
+layout widget_initial
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string app_name
+string weather_icon_desc
+style Theme.WeatherChangeWidget
+xml widget_info

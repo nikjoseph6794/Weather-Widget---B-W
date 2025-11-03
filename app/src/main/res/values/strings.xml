@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WeatherChangeWidget</string>
+    <string name="weather_icon_desc">Weather condition icon</string>
+</resources>
