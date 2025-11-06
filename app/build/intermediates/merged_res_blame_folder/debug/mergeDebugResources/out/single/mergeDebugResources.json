@@ -4,6 +4,10 @@
         "source": "com.example.weatherwidget.app-main-35:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
+        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_mist.png.flat",
+        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_mist.png"
+    },
+    {
         "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_unknown.png.flat",
         "source": "com.example.weatherwidget.app-main-35:/drawable/weather_unknown.png"
     },

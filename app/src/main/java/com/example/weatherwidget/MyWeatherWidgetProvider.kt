@@ -54,7 +54,8 @@ class MyWeatherWidgetProvider : AppWidgetProvider() {
                 "snow" -> R.drawable.weather_snow
                 "thunderstorm" -> R.drawable.weather_thunder
                 "drizzle" -> R.drawable.weather_drizzle
-                "fog", "mist" -> R.drawable.weather_fog
+                "fog"  -> R.drawable.weather_fog
+                "mist" -> R.drawable.weather_mist
                 else -> R.drawable.weather_unknown
             }
             views.setImageViewResource(R.id.weather_icon, iconRes)
@@ -92,7 +93,8 @@ class MyWeatherWidgetProvider : AppWidgetProvider() {
             "snow" -> R.drawable.weather_snow
             "thunderstorm" -> R.drawable.weather_thunder
             "drizzle" -> R.drawable.weather_drizzle
-            "fog", "mist" -> R.drawable.weather_fog
+            "fog"  -> R.drawable.weather_fog
+            "mist" -> R.drawable.weather_mist
             else -> R.drawable.weather_unknown
         }
         views.setImageViewResource(R.id.weather_icon, iconRes)

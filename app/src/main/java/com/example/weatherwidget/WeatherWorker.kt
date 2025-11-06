@@ -99,7 +99,8 @@ class WeatherWorker(appContext: Context, params: WorkerParameters) : CoroutineWo
         return when (code) {
             0 -> "Clear"
             1,2,3 -> "Clouds"
-            45,48 -> "Fog"
+            45 -> "Fog"
+            48 -> "Mist"
             51,53,55,56,57 -> "Drizzle"
             61,63,65,80,81,82 -> "Rain"
             66,67 -> "Freezing Rain"
@@ -132,7 +133,8 @@ class WeatherWorker(appContext: Context, params: WorkerParameters) : CoroutineWo
                 "snow" -> R.drawable.weather_snow
                 "thunderstorm" -> R.drawable.weather_thunder
                 "drizzle" -> R.drawable.weather_drizzle
-                "fog", "mist" -> R.drawable.weather_fog
+                "fog"  -> R.drawable.weather_fog
+                "mist" -> R.drawable.weather_mist
                 else -> R.drawable.weather_unknown
             }
 

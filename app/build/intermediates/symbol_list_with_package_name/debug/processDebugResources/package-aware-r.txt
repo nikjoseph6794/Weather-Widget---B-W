@@ -2930,6 +2930,7 @@ drawable weather_clouds
 drawable weather_drizzle
 drawable weather_fog
 drawable weather_icon
+drawable weather_mist
 drawable weather_rain
 drawable weather_snow
 drawable weather_thunder
