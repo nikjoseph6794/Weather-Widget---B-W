@@ -6,5 +6,5 @@
         android:id="@+id/weather_icon"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:src="@drawable/weather_unknown" />
+        android:src="@drawable/weather_unknown_bw" />
 </FrameLayout>

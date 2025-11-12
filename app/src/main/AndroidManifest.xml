@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
+    <!-- Application entry -->
     <application
         android:name=".App"
         android:allowBackup="true"
@@ -15,9 +16,7 @@
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round">
 
-
-
-        <!-- Main launcher activity: must be exported because it has a LAUNCHER intent-filter -->
+        <!-- Launcher activity: MainActivity only -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -25,20 +24,22 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
 
-        <!-- AppWidgetProvider (receiver) used by the system to send APPWIDGET_UPDATE -->
-        <receiver
-            android:name=".MyWeatherWidgetProvider"
+        <!-- SettingsActivity (no LAUNCHER intent) -->
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true" />
+
+        <!-- AppWidget provider (single declaration) -->
+        <receiver android:name=".MyWeatherWidgetProvider"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
-            <meta-data
-                android:name="android.appwidget.provider"
-                android:resource="@xml/widget_info" />
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info" />
         </receiver>
 
     </application>
+
 </manifest>

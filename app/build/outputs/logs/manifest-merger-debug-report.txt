@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:2:1-44:12
+ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:2:1-45:12
 MERGED from [androidx.databinding:viewbinding:8.4.2] /Users/A-201145/.gradle/caches/9.1.0/transforms/2166bd0b9eccf5ad9e279964901ec1c7/transformed/jetified-viewbinding-8.4.2/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.9.0] /Users/A-201145/.gradle/caches/9.1.0/transforms/c75b9270982f193596c22c214045a62f/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/A-201145/.gradle/caches/9.1.0/transforms/f0e4238e55f9aa366bd932ab5c8e2b52/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
@@ -73,8 +73,8 @@ ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/m
 	android:name
 		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:7:22-78
 application
-ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:9:5-43:19
-INJECTED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:9:5-43:19
+ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:10:5-43:19
+INJECTED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:10:5-43:19
 MERGED from [com.google.android.material:material:1.9.0] /Users/A-201145/.gradle/caches/9.1.0/transforms/c75b9270982f193596c22c214045a62f/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] /Users/A-201145/.gradle/caches/9.1.0/transforms/c75b9270982f193596c22c214045a62f/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/A-201145/.gradle/caches/9.1.0/transforms/6722820d57964c0942f070c7e8e9e9c5/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
@@ -98,53 +98,59 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/A-201145/.gradle/cac
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.10.1] /Users/A-201145/.gradle/caches/9.1.0/transforms/c038ab7f101ef52d5522234cdb9a71af/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:12:9-44
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:13:9-44
 	android:roundIcon
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:16:9-54
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:17:9-54
 	android:icon
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:15:9-43
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:14:9-57
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:15:9-57
 	android:name
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:10:9-28
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:11:9-28
 activity#com.example.weatherwidget.MainActivity
-ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:21:9-29:20
+ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:20:9-27:20
 	android:exported
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:23:13-36
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:22:13-41
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:21:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:24:13-27:29
+ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:23:13-26:29
 action#android.intent.action.MAIN
-ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:25:17-69
+ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:25:25-66
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:26:27-74
-receiver#com.example.weatherwidget.MyWeatherWidgetProvider
-ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:32:9-41:20
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:25:27-74
+activity#com.example.weatherwidget.SettingsActivity
+ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:30:9-32:39
 	android:exported
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:34:13-36
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:32:13-36
 	android:name
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:33:13-52
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:31:13-45
+receiver#com.example.weatherwidget.MyWeatherWidgetProvider
+ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:35:9-41:20
+	android:exported
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:36:13-36
+	android:name
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:35:19-58
 intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:35:13-37:29
+ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:37:13-39:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:36:17-84
+ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:38:17-84
 	android:name
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:36:25-81
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:38:25-81
 meta-data#android.appwidget.provider
-ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:38:13-40:55
+ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:40:13-104
 	android:resource
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:40:17-52
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:40:66-101
 	android:name
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:39:17-58
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:40:24-65
 uses-sdk
 INJECTED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml

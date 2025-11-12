@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:text="Choose widget style"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/rg_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_malayalam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malayalam icons" />
+
+        <RadioButton
+            android:id="@+id/rb_bw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black &amp; White icons" />
+
+        <RadioButton
+            android:id="@+id/rb_transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transparent icons" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

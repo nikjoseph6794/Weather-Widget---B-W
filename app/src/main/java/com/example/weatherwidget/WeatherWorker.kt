@@ -3,10 +3,15 @@ package com.example.weatherwidget
 import android.appwidget.AppWidgetManager
 import android.content.ComponentName
 import android.content.Context
+import android.content.SharedPreferences
 import android.util.Log
 import android.widget.RemoteViews
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
+import com.example.weatherwidget.MyWeatherWidgetProvider.Companion.PREF_THEME
+import com.example.weatherwidget.MyWeatherWidgetProvider.Companion.THEME_BW
+import com.example.weatherwidget.MyWeatherWidgetProvider.Companion.THEME_MALAYALAM
+import com.example.weatherwidget.MyWeatherWidgetProvider.Companion.THEME_TRANSPARENT
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONObject
@@ -126,17 +131,8 @@ class WeatherWorker(appContext: Context, params: WorkerParameters) : CoroutineWo
             val layout = if (useWide) R.layout.widget_5x1 else R.layout.widget_2x1
             val views = RemoteViews(applicationContext.packageName, layout)
 
-            val iconRes = when (condition.lowercase(Locale.ROOT)) {
-                "clear" -> R.drawable.weather_clear
-                "clouds" -> R.drawable.weather_clouds
-                "rain" -> R.drawable.weather_rain
-                "snow" -> R.drawable.weather_snow
-                "thunderstorm" -> R.drawable.weather_thunder
-                "drizzle" -> R.drawable.weather_drizzle
-                "fog"  -> R.drawable.weather_fog
-                "mist" -> R.drawable.weather_mist
-                else -> R.drawable.weather_unknown
-            }
+            val iconRes = pickDrawableForConditionAndTheme(condition, prefs, applicationContext)
+
 
             views.setImageViewResource(R.id.weather_icon, iconRes)
 
@@ -151,5 +147,37 @@ class WeatherWorker(appContext: Context, params: WorkerParameters) : CoroutineWo
             mgr.updateAppWidget(id, views)
         }
     }
+
+     fun pickDrawableForConditionAndTheme(
+        condition: String,
+        prefs: SharedPreferences,
+        context: Context
+    ): Int {
+        val theme = prefs.getString(PREF_THEME, THEME_MALAYALAM) ?: THEME_MALAYALAM
+        val key = condition.lowercase(Locale.ROOT)
+
+        val suffix = when (theme) {
+            THEME_BW -> "_bw"
+            THEME_TRANSPARENT -> "_tr"
+            else -> "_ml"
+        }
+
+        val baseName = when (key) {
+            "clear" -> "weather_clear"
+            "clouds" -> "weather_clouds"
+            "rain" -> "weather_rain"
+            "snow" -> "weather_snow"
+            "thunderstorm" -> "weather_thunder"
+            "drizzle" -> "weather_drizzle"
+            "fog" -> "weather_fog"
+            "mist" -> "weather_mist"
+            else -> "weather_unknown"
+        }
+
+        val fullName = baseName + suffix
+        val resId = context.resources.getIdentifier(fullName, "drawable", context.packageName)
+        return if (resId != 0) resId else context.resources.getIdentifier(baseName + "_ml", "drawable", context.packageName)
+    }
+
 
 }

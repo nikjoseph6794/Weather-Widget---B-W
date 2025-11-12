@@ -20,8 +20,7 @@
         android:name="com.example.weatherwidget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.weatherwidget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-
+    <uses-permission android:name="com.example.weatherwidget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Application entry -->
     <application
         android:name="com.example.weatherwidget.App"
         android:allowBackup="true"
@@ -32,10 +31,9 @@
         android:label="WeatherChangeWidget"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.WeatherChangeWidget" >
 
-        <!-- Main launcher activity: must be exported because it has a LAUNCHER intent-filter -->
+        <!-- Launcher activity: MainActivity only -->
         <activity
             android:name="com.example.weatherwidget.MainActivity"
             android:exported="true" >
@@ -46,7 +44,12 @@
             </intent-filter>
         </activity>
 
-        <!-- AppWidgetProvider (receiver) used by the system to send APPWIDGET_UPDATE -->
+        <!-- SettingsActivity (no LAUNCHER intent) -->
+        <activity
+            android:name="com.example.weatherwidget.SettingsActivity"
+            android:exported="true" />
+
+        <!-- AppWidget provider (single declaration) -->
         <receiver
             android:name="com.example.weatherwidget.MyWeatherWidgetProvider"
             android:exported="true" >

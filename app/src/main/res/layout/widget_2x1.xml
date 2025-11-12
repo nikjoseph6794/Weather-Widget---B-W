@@ -11,7 +11,7 @@
         android:layout_gravity="center"
         android:contentDescription="@string/weather_icon_desc"
         android:scaleType="centerInside"
-        android:src="@drawable/weather_unknown" />
+        android:src="@drawable/weather_unknown_bw" />
 
     <!-- hidden compatibility text (keeps code references safe) -->
     <TextView
