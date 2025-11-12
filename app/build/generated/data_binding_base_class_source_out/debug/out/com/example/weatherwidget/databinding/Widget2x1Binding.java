@@ -24,13 +24,17 @@ public final class Widget2x1Binding implements ViewBinding {
   public final ImageView weatherIcon;
 
   @NonNull
-  public final TextView weatherText;
+  public final TextView weatherTitle;
+
+  @NonNull
+  public final FrameLayout widgetRoot;
 
   private Widget2x1Binding(@NonNull FrameLayout rootView, @NonNull ImageView weatherIcon,
-      @NonNull TextView weatherText) {
+      @NonNull TextView weatherTitle, @NonNull FrameLayout widgetRoot) {
     this.rootView = rootView;
     this.weatherIcon = weatherIcon;
-    this.weatherText = weatherText;
+    this.weatherTitle = weatherTitle;
+    this.widgetRoot = widgetRoot;
   }
 
   @Override
@@ -66,13 +70,15 @@ public final class Widget2x1Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.weather_text;
-      TextView weatherText = ViewBindings.findChildViewById(rootView, id);
-      if (weatherText == null) {
+      id = R.id.weather_title;
+      TextView weatherTitle = ViewBindings.findChildViewById(rootView, id);
+      if (weatherTitle == null) {
         break missingId;
       }
 
-      return new Widget2x1Binding((FrameLayout) rootView, weatherIcon, weatherText);
+      FrameLayout widgetRoot = (FrameLayout) rootView;
+
+      return new Widget2x1Binding((FrameLayout) rootView, weatherIcon, weatherTitle, widgetRoot);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

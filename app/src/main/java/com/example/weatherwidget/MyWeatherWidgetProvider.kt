@@ -41,6 +41,7 @@ class MyWeatherWidgetProvider : AppWidgetProvider() {
 
                 val iconRes = pickDrawableForConditionAndTheme(lastCondition, prefs, context)
                 views.setImageViewResource(R.id.weather_icon, iconRes)
+
                 // set text only if layout has weather_title (5x1)
                 try {
                     views.setTextViewText(R.id.weather_title, lastCondition)

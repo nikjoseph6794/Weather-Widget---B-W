@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:padding="8dp"
-    android:gravity="center_vertical">
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:background="@null">
 
     <ImageView
         android:id="@+id/weather_icon"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
-        android:layout_marginEnd="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
         android:contentDescription="@string/weather_icon_desc"
-        android:src="@drawable/weather_unknown_bw"
-        android:scaleType="centerInside" />
+        android:src="@drawable/weather_unknown_bw" />
 
+    <!-- Visible condition text for wide layout -->
     <TextView
         android:id="@+id/weather_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Condition"
+        android:layout_gravity="center"
+        android:text=""
         android:textSize="16sp"
-        android:textStyle="bold"
-        android:visibility="gone"/>
-</LinearLayout>
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+        android:padding="6dp"
+        android:background="@android:color/transparent"/>
+</FrameLayout>

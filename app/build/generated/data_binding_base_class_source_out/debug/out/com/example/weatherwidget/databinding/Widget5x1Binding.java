@@ -4,8 +4,8 @@ package com.example.weatherwidget.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,7 +18,7 @@ import java.lang.String;
 
 public final class Widget5x1Binding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final FrameLayout rootView;
 
   @NonNull
   public final ImageView weatherIcon;
@@ -26,16 +26,20 @@ public final class Widget5x1Binding implements ViewBinding {
   @NonNull
   public final TextView weatherTitle;
 
-  private Widget5x1Binding(@NonNull LinearLayout rootView, @NonNull ImageView weatherIcon,
-      @NonNull TextView weatherTitle) {
+  @NonNull
+  public final FrameLayout widgetRoot;
+
+  private Widget5x1Binding(@NonNull FrameLayout rootView, @NonNull ImageView weatherIcon,
+      @NonNull TextView weatherTitle, @NonNull FrameLayout widgetRoot) {
     this.rootView = rootView;
     this.weatherIcon = weatherIcon;
     this.weatherTitle = weatherTitle;
+    this.widgetRoot = widgetRoot;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public FrameLayout getRoot() {
     return rootView;
   }
 
@@ -72,7 +76,9 @@ public final class Widget5x1Binding implements ViewBinding {
         break missingId;
       }
 
-      return new Widget5x1Binding((LinearLayout) rootView, weatherIcon, weatherTitle);
+      FrameLayout widgetRoot = (FrameLayout) rootView;
+
+      return new Widget5x1Binding((FrameLayout) rootView, weatherIcon, weatherTitle, widgetRoot);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

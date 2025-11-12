@@ -39,8 +39,8 @@ id rb_transparent
 id rg_theme
 id title_text
 id weather_icon
-id weather_text
 id weather_title
+id widget_root
 layout activity_settings
 layout widget_2x1
 layout widget_5x1
