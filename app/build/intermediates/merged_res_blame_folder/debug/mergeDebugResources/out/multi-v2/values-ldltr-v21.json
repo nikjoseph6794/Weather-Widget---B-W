@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.weatherwidget.app-mergeDebugResources-31:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.example.weatherwidget.app-mergeDebugResources-33:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
                     "source": "/Users/A-201145/.gradle/caches/9.1.0/transforms/a45184e0c288dfd0581f0d9a513d728b/transformed/appcompat-1.6.1/res/values-ldltr-v21/values-ldltr-v21.xml",

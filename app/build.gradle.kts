@@ -40,4 +40,5 @@ dependencies {
     implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.work:work-runtime-ktx:2.8.1")
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
+    implementation("com.google.android.gms:play-services-location:21.2.0")
 }

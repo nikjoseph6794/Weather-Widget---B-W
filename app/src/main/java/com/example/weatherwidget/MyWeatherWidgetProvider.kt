@@ -105,7 +105,7 @@ class MyWeatherWidgetProvider : AppWidgetProvider() {
 
         // schedule periodic worker once (keep if already scheduled)
         try {
-            val periodic = PeriodicWorkRequestBuilder<WeatherWorker>(1, TimeUnit.HOURS).build()
+            val periodic = PeriodicWorkRequestBuilder<WeatherWorker>(15, TimeUnit.MINUTES).build()
             WorkManager.getInstance(context).enqueueUniquePeriodicWork(
                 "weather_update_work",
                 androidx.work.ExistingPeriodicWorkPolicy.KEEP,

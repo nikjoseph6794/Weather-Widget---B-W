@@ -30,8 +30,8 @@ class WeatherWorker(appContext: Context, params: WorkerParameters) : CoroutineWo
         Context.MODE_PRIVATE
     )
 
-    private val defaultLat = prefs.getFloat("lat", 10.0159f).toDouble()
-    private val defaultLon = prefs.getFloat("lon", 76.3419f).toDouble()
+//    private val defaultLat = prefs.getFloat("lat", 10.0159f).toDouble()
+//    private val defaultLon = prefs.getFloat("lon", 76.3419f).toDouble()
 
     override suspend fun doWork(): Result {
         return try {
@@ -43,6 +43,8 @@ class WeatherWorker(appContext: Context, params: WorkerParameters) : CoroutineWo
             }
             val condition = normalizeCondition(weather.condition)
             val tempC = weather.temperatureC
+            Log.i(TAG,"condition / nikhil "+condition )
+            Log.i(TAG,"tempC /nikhil"+tempC )
             Log.i(TAG, "Fetched: $condition, $tempC")
 
             val lastCondition = prefs.getString(MyWeatherWidgetProvider.PREF_LAST_CONDITION, null)
@@ -68,10 +70,11 @@ class WeatherWorker(appContext: Context, params: WorkerParameters) : CoroutineWo
     }
 
     private data class WeatherResult(val condition: String, val temperatureC: Double)
-
     private fun fetchCurrentWeather(): WeatherResult? {
-        val lat = prefs.getFloat("lat", defaultLat.toFloat()).toDouble()
-        val lon = prefs.getFloat("lon", defaultLon.toFloat()).toDouble()
+        // read the latest coordinates directly from prefs each time so location is dynamic
+        val lat = prefs.getFloat("lat", 10.0159f).toDouble()
+        val lon = prefs.getFloat("lon", 76.3419f).toDouble()
+
         val url = "https://api.open-meteo.com/v1/forecast?latitude=$lat&longitude=$lon&current_weather=true"
         val req = Request.Builder().url(url).get().build()
         client.newCall(req).execute().use { resp ->

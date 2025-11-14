@@ -3,32 +3,32 @@
 3    package="com.example.weatherwidget.test" >
 4
 5    <uses-sdk
-5-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest4300667301094544.xml:5:5-74
+5-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5604264342784698642.xml:5:5-74
 6        android:minSdkVersion="23"
-6-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest4300667301094544.xml:5:15-41
+6-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5604264342784698642.xml:5:15-41
 7        android:targetSdkVersion="34" />
-7-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest4300667301094544.xml:5:42-71
+7-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5604264342784698642.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest4300667301094544.xml:11:5-15:75
+9-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5604264342784698642.xml:11:5-15:75
 10        android:name="android.test.InstrumentationTestRunner"
-10-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest4300667301094544.xml:11:22-75
+10-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5604264342784698642.xml:11:22-75
 11        android:functionalTest="false"
-11-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest4300667301094544.xml:14:22-52
+11-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5604264342784698642.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest4300667301094544.xml:13:22-53
+12-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5604264342784698642.xml:13:22-53
 13        android:label="Tests for com.example.weatherwidget"
-13-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest4300667301094544.xml:15:22-73
+13-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5604264342784698642.xml:15:22-73
 14        android:targetPackage="com.example.weatherwidget" />
-14-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest4300667301094544.xml:12:22-71
+14-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5604264342784698642.xml:12:22-71
 15
 16    <application
-16-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest4300667301094544.xml:7:5-9:19
+16-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5604264342784698642.xml:7:5-9:19
 17        android:debuggable="true"
 18        android:extractNativeLibs="false" >
 19        <uses-library android:name="android.test.runner" />
-19-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest4300667301094544.xml:8:9-60
-19-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest4300667301094544.xml:8:23-57
+19-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5604264342784698642.xml:8:9-60
+19-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5604264342784698642.xml:8:23-57
 20    </application>
 21
 22</manifest>

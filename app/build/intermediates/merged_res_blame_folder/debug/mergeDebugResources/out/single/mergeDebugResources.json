@@ -1,218 +1,218 @@
 [
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_fog_tr.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_fog_tr.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_clouds.xml.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/clouds.xml"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_snow_tr.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_snow_tr.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_thunder_tr.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_thunder_tr.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-hdpi/ic_launcher_foreground.webp"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_icon1.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_icon1.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_clouds_bw.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_clouds_bw.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_thunder_tr.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_thunder_tr.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_rain_tr.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_rain_tr.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_clouds_ml.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_clouds_ml.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_clouds_bw.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_clouds_bw.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_thunder_ml.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_thunder_ml.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_clouds_ml.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_clouds_ml.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_clear_bw.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_clear_bw.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_clouds.xml.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/clouds.xml"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_mist_tr.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_mist_tr.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_fog_ml.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_fog_ml.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-hdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_thunder_ml.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_thunder_ml.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_snow_bw.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_snow_bw.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/layout_widget_2x1.xml.flat",
-        "source": "com.example.weatherwidget.app-main-35:/layout/widget_2x1.xml"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/layout_activity_settings.xml.flat",
-        "source": "com.example.weatherwidget.app-main-35:/layout/activity_settings.xml"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_fog_bw.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_fog_bw.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_drizzle_tr.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_drizzle_tr.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_snow_ml.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_snow_ml.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_drizzle_tr.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_drizzle_tr.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_mist_ml.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_mist_ml.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_unknown_bw.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_unknown_bw.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_unknown_tr.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_unknown_tr.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_unknown_tr.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_unknown_tr.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_mist_bw.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_mist_bw.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_thunder_bw.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_thunder_bw.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_drizzle_bw.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_drizzle_bw.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_rain_ml.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_rain_ml.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/layout_widget_5x1.xml.flat",
-        "source": "com.example.weatherwidget.app-main-35:/layout/widget_5x1.xml"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_clouds_tr.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_clouds_tr.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_unknown_bw.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_unknown_bw.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_clouds_tr.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_clouds_tr.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_thunder_bw.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_thunder_bw.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_drizzle_bw.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_drizzle_bw.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_widget_bg_rounded.xml.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/widget_bg_rounded.xml"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_rain_tr.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_rain_tr.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_mist_tr.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_mist_tr.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/xml_widget_info.xml.flat",
+        "source": "com.example.weatherwidget.app-main-37:/xml/widget_info.xml"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_clear_tr.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_clear_tr.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/layout_widget_2x1.xml.flat",
+        "source": "com.example.weatherwidget.app-main-37:/layout/widget_2x1.xml"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_clear_ml.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_clear_ml.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_fog_tr.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_fog_tr.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_rain_bw.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_rain_bw.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_widget_bg_rounded.xml.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/widget_bg_rounded.xml"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-xhdpi/ic_launcher_foreground.webp"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.weatherwidget.app-debug-35:/layout_widget_5x1.xml.flat",
+        "source": "com.example.weatherwidget.app-main-37:/layout/widget_5x1.xml"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_icon1.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_icon1.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_snow_bw.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_snow_bw.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_drizzle_ml.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_drizzle_ml.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_clear_tr.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_clear_tr.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_unknown_ml.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_unknown_ml.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_snow_tr.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_snow_tr.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_widget_background.xml.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/widget_background.xml"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_drizzle_ml.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_drizzle_ml.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/xml_widget_info.xml.flat",
-        "source": "com.example.weatherwidget.app-main-35:/xml/widget_info.xml"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_unknown_ml.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_unknown_ml.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_mist_bw.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_mist_bw.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_fog_ml.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_fog_ml.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_mist_ml.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_mist_ml.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_widget_background.xml.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/widget_background.xml"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_fog_bw.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_fog_bw.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_rain_bw.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_rain_bw.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_clear_ml.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_clear_ml.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_rain_ml.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_rain_ml.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/drawable_weather_clear_bw.png.flat",
-        "source": "com.example.weatherwidget.app-main-35:/drawable/weather_clear_bw.png"
+        "merged": "com.example.weatherwidget.app-debug-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.weatherwidget.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-mdpi/ic_launcher_foreground.webp"
+        "merged": "com.example.weatherwidget.app-debug-35:/layout_activity_settings.xml.flat",
+        "source": "com.example.weatherwidget.app-main-37:/layout/activity_settings.xml"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.weatherwidget.app-main-35:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.weatherwidget.app-debug-35:/drawable_weather_snow_ml.png.flat",
+        "source": "com.example.weatherwidget.app-main-37:/drawable/weather_snow_ml.png"
     },
     {
-        "merged": "com.example.weatherwidget.app-debug-33:/layout_widget_initial.xml.flat",
-        "source": "com.example.weatherwidget.app-main-35:/layout/widget_initial.xml"
+        "merged": "com.example.weatherwidget.app-debug-35:/layout_widget_initial.xml.flat",
+        "source": "com.example.weatherwidget.app-main-37:/layout/widget_initial.xml"
     }
 ]

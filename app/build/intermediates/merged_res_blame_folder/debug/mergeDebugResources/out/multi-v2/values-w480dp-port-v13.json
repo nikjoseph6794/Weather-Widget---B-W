@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.weatherwidget.app-mergeDebugResources-31:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+            "outputFile": "com.example.weatherwidget.app-mergeDebugResources-33:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
                     "source": "/Users/A-201145/.gradle/caches/9.1.0/transforms/c75b9270982f193596c22c214045a62f/transformed/material-1.9.0/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",
