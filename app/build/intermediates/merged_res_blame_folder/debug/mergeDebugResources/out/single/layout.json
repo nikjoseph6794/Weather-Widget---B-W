@@ -1,18 +1,22 @@
 [
     {
-        "merged": "com.weatherwidget.app-mergeDebugResources-34:/layout/widget_2x1.xml",
-        "source": "com.weatherwidget.app-main-37:/layout/widget_2x1.xml"
+        "merged": "/Users/A-201145/.gradle/daemon/9.1.0/com.weatherwidget.app-mergeDebugResources-34:/layout/widget_5x1.xml",
+        "source": "/Users/A-201145/.gradle/daemon/9.1.0/com.weatherwidget.app-main-37:/layout/widget_5x1.xml"
     },
     {
-        "merged": "com.weatherwidget.app-mergeDebugResources-34:/layout/widget_5x1.xml",
-        "source": "com.weatherwidget.app-main-37:/layout/widget_5x1.xml"
+        "merged": "/Users/A-201145/.gradle/daemon/9.1.0/com.weatherwidget.app-mergeDebugResources-34:/layout/widget_2x1.xml",
+        "source": "/Users/A-201145/.gradle/daemon/9.1.0/com.weatherwidget.app-main-37:/layout/widget_2x1.xml"
+    },
+    {
+        "merged": "/Users/A-201145/.gradle/daemon/9.1.0/com.weatherwidget.app-mergeDebugResources-34:/layout/widget_initial.xml",
+        "source": "/Users/A-201145/.gradle/daemon/9.1.0/com.weatherwidget.app-main-37:/layout/widget_initial.xml"
     },
     {
         "merged": "com.weatherwidget.app-mergeDebugResources-34:/layout/activity_settings.xml",
         "source": "com.weatherwidget.app-main-37:/layout/activity_settings.xml"
     },
     {
-        "merged": "com.weatherwidget.app-mergeDebugResources-34:/layout/widget_initial.xml",
-        "source": "com.weatherwidget.app-main-37:/layout/widget_initial.xml"
+        "merged": "/Users/A-201145/.gradle/daemon/9.1.0/com.weatherwidget.app-mergeDebugResources-34:/layout/activity_settings.xml",
+        "source": "/Users/A-201145/.gradle/daemon/9.1.0/com.weatherwidget.app-main-37:/layout/activity_settings.xml"
     }
 ]

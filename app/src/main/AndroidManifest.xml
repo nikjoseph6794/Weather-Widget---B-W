@@ -11,7 +11,7 @@
     <application
         android:name="com.WeatherWidget.weatherwidget.App"
         android:allowBackup="true"
-        android:label="WeatherChangeWidget"
+        android:label="Weather Change Widget"
         android:supportsRtl="true"
         android:theme="@style/Theme.WeatherChangeWidget"
         android:icon="@mipmap/ic_launcher"

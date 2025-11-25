@@ -112,7 +112,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/A-201145/.gradle/cac
 	android:supportsRtl
 		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:14:9-44
+		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:14:9-46
 	android:roundIcon
 		ADDED from /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:18:9-54
 	android:icon

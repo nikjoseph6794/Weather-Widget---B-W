@@ -52,8 +52,8 @@
 29        android:extractNativeLibs="false"
 30        android:icon="@mipmap/ic_launcher"
 30-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:17:9-43
-31        android:label="WeatherChangeWidget"
-31-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:14:9-44
+31        android:label="Weather Change Widget"
+31-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:14:9-46
 32        android:roundIcon="@mipmap/ic_launcher_round"
 32-->/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/AndroidManifest.xml:18:9-54
 33        android:supportsRtl="true"
