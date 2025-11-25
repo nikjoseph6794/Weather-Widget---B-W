@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.weatherwidget">
+    package="com.weatherwidget.app">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
@@ -9,7 +9,7 @@
 
     <!-- Application entry -->
     <application
-        android:name=".App"
+        android:name="com.WeatherWidget.weatherwidget.App"
         android:allowBackup="true"
         android:label="WeatherChangeWidget"
         android:supportsRtl="true"
@@ -19,7 +19,7 @@
 
         <!-- Launcher activity: MainActivity only -->
         <activity
-            android:name=".MainActivity"
+            android:name="com.WeatherWidget.weatherwidget.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,11 +29,11 @@
 
         <!-- SettingsActivity (no LAUNCHER intent) -->
         <activity
-            android:name=".SettingsActivity"
+            android:name="com.WeatherWidget.weatherwidget.SettingsActivity"
             android:exported="true" />
 
         <!-- AppWidget provider (single declaration) -->
-        <receiver android:name=".MyWeatherWidgetProvider"
+        <receiver android:name="com.WeatherWidget.weatherwidget.MyWeatherWidgetProvider"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />

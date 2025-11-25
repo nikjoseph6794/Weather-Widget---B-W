@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.weatherwidget.app-mergeDebugResources-33:/values-sr/values-sr.xml",
+            "outputFile": "com.weatherwidget.app-mergeDebugResources-33:/values-sr/values-sr.xml",
             "map": [
                 {
                     "source": "/Users/A-201145/.gradle/caches/9.1.0/transforms/0f2044337d73347e4397e896ad1f5eab/transformed/jetified-play-services-base-18.3.0/res/values-sr/values.xml",

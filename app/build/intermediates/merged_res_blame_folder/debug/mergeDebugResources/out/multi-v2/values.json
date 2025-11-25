@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.weatherwidget.app-mergeDebugResources-33:/values/values.xml",
+            "outputFile": "com.weatherwidget.app-mergeDebugResources-33:/values/values.xml",
             "map": [
                 {
                     "source": "/Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/src/main/res/values/strings.xml",

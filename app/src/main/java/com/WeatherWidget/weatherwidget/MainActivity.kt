@@ -1,0 +1,13 @@
+package com.WeatherWidget.weatherwidget
+
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        // Immediately open SettingsActivity and finish MainActivity so launcher returns to home
+        SettingsActivity.open(this)
+        finish()
+    }
+}

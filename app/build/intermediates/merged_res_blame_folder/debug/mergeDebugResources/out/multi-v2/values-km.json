@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.weatherwidget.app-mergeDebugResources-33:/values-km/values-km.xml",
+            "outputFile": "com.weatherwidget.app-mergeDebugResources-33:/values-km/values-km.xml",
             "map": [
                 {
                     "source": "/Users/A-201145/.gradle/caches/9.1.0/transforms/7900dcdbe635c8a31653d00ed91ebe38/transformed/jetified-play-services-basement-18.3.0/res/values-km/values.xml",

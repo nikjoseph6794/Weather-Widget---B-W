@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace = "com.example.weatherwidget"
+    namespace = "com.weatherwidget.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.weatherwidget"
+        applicationId = "com.weatherwidget.app"
         minSdk = 23
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        targetSdk = 35
+        versionCode = 2
+        versionName = "1.0.1"
     }
 
     compileOptions {

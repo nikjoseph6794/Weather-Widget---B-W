@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.weatherwidget"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.weatherwidget.app"
+    android:versionCode="2"
+    android:versionName="1.0.1" >
 
     <uses-sdk
         android:minSdkVersion="23"
-        android:targetSdkVersion="34" />
+        android:targetSdkVersion="35" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -17,12 +17,12 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <permission
-        android:name="com.example.weatherwidget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.weatherwidget.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.weatherwidget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Application entry -->
+    <uses-permission android:name="com.weatherwidget.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Application entry -->
     <application
-        android:name="com.example.weatherwidget.App"
+        android:name="com.WeatherWidget.weatherwidget.App"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -31,11 +31,12 @@
         android:label="WeatherChangeWidget"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.WeatherChangeWidget" >
 
         <!-- Launcher activity: MainActivity only -->
         <activity
-            android:name="com.example.weatherwidget.MainActivity"
+            android:name="com.WeatherWidget.weatherwidget.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,12 +47,12 @@
 
         <!-- SettingsActivity (no LAUNCHER intent) -->
         <activity
-            android:name="com.example.weatherwidget.SettingsActivity"
+            android:name="com.WeatherWidget.weatherwidget.SettingsActivity"
             android:exported="true" />
 
         <!-- AppWidget provider (single declaration) -->
         <receiver
-            android:name="com.example.weatherwidget.MyWeatherWidgetProvider"
+            android:name="com.WeatherWidget.weatherwidget.MyWeatherWidgetProvider"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -73,7 +74,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.weatherwidget.androidx-startup"
+            android:authorities="com.weatherwidget.app.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

@@ -1,4 +1,0 @@
-com.example.weatherwidget.test.app-androidTest-0 /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/generated/res/resValues/androidTest/debug
-com.example.weatherwidget.test.app-mergeDebugAndroidTestResources-1 /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.example.weatherwidget.test.app-mergeDebugAndroidTestResources-2 /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.example.weatherwidget.test.app-debugAndroidTest-3 /Users/A-201145/Downloads/WeatherChangeWidget_fixed_dynamic/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
