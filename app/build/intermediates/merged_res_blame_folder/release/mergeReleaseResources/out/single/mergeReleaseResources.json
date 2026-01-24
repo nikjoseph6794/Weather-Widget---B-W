@@ -1,0 +1,398 @@
+[
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_fog_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_fog_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_snow_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_snow_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_snow_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_snow_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_freezing_drizzle_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_freezing_drizzle_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_snow_showers_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_snow_showers_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_freezing_rain_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_freezing_rain_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_rain_heavy_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_rain_heavy_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_thunder_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_thunder_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_fog_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_fog_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_snow_showers_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_snow_showers_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_thunder_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_thunder_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_drizzle_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_drizzle_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_thunder_hail_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_thunder_hail_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_snow_grains_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_snow_grains_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_snow_grains_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_snow_grains_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_rain_heavy_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_rain_heavy_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_freezing_drizzle_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_freezing_drizzle_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_snow_heavy_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_snow_heavy_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_rain_heavy_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_rain_heavy_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_snow_showers_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_snow_showers_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_snow_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_snow_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_widget_background.xml.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/widget_background.xml"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_freezing_drizzle_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_freezing_drizzle_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_drizzle_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_drizzle_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_unknown_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_unknown_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_snow_grains_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_snow_grains_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_thunder_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_thunder_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_drizzle_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_drizzle_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_violent_rain_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_violent_rain_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_snow_grains_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_snow_grains_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_clouds_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_clouds_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_unknown_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_unknown_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_freezing_rain_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_freezing_rain_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_snow_showers_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_snow_showers_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_unknown_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_unknown_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_thunder_hail_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_thunder_hail_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_freezing_rain_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_freezing_rain_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_unknown_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_unknown_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_mist_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_mist_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_icon1.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_icon1.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_clear_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_clear_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_thunder_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_thunder_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_freezing_drizzle_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_freezing_drizzle_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_rain_heavy_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_rain_heavy_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_violent_rain_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_violent_rain_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_rain_showers_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_rain_showers_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_snow_heavy_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_snow_heavy_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_snow_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_snow_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_thunder_hail_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_thunder_hail_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_widget_bg_rounded.xml.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/widget_bg_rounded.xml"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/layout_activity_settings.xml.flat",
+        "source": "com.weatherwidget.app-main-36:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/layout_widget_5x1.xml.flat",
+        "source": "com.weatherwidget.app-main-36:/layout/widget_5x1.xml"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_clear_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_clear_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_rain_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_rain_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_clouds_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_clouds_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/layout_widget_2x1.xml.flat",
+        "source": "com.weatherwidget.app-main-36:/layout/widget_2x1.xml"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_clear_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_clear_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_rain_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_rain_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_clouds.xml.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/clouds.xml"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_violent_rain_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_violent_rain_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_snow_heavy_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_snow_heavy_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_clear_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_clear_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_rain_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_rain_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_rain_showers_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_rain_showers_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_snow_heavy_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_snow_heavy_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_violent_rain_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_violent_rain_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_freezing_rain_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_freezing_rain_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_mist_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_mist_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/xml_widget_info.xml.flat",
+        "source": "com.weatherwidget.app-main-36:/xml/widget_info.xml"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_rain_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_rain_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_rain_showers_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_rain_showers_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_clouds_bw.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_clouds_bw.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_mist_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_mist_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_drizzle_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_drizzle_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_fog_bw_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_fog_bw_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_rain_showers_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_rain_showers_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_thunder_hail_ml.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_thunder_hail_ml.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_clouds_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_clouds_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/layout_widget_initial.xml.flat",
+        "source": "com.weatherwidget.app-main-36:/layout/widget_initial.xml"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.weatherwidget.app-main-36:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_fog_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_fog_tr.png"
+    },
+    {
+        "merged": "com.weatherwidget.app-release-35:/drawable_weather_mist_tr.png.flat",
+        "source": "com.weatherwidget.app-main-36:/drawable/weather_mist_tr.png"
+    }
+]
