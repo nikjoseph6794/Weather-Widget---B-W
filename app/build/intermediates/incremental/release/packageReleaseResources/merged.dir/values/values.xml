@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">WeatherChangeWidget</string>
-    <string name="weather_icon_desc">Weather condition icon</string>
-    <style name="Theme.WeatherChangeWidget" parent="Theme.MaterialComponents.DayNight.DarkActionBar"/>
-</resources>

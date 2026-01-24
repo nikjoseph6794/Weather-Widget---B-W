@@ -25,6 +25,8 @@ class MyWeatherWidgetProvider : AppWidgetProvider() {
         const val THEME_MALAYALAM = "malayalam"
         const val THEME_BW = "black_white"
         const val THEME_TRANSPARENT = "transparent"
+        const val THEME_BW_TRANSPARENT = "black_white_transparent"
+
 
         /**
          * Helper to update one widget from current prefs (safe and idempotent)
@@ -69,21 +71,47 @@ class MyWeatherWidgetProvider : AppWidgetProvider() {
             val suffix = when (theme) {
                 THEME_BW -> "_bw"
                 THEME_TRANSPARENT -> "_tr"
+                THEME_BW_TRANSPARENT -> "_bw_tr"
+                THEME_MALAYALAM -> "_ml"
                 else -> "_ml"
             }
 
+
             // map condition -> base name
             val baseName = when (key) {
+
+                // ☀️ Clear & clouds
                 "clear" -> "weather_clear"
                 "clouds" -> "weather_clouds"
-                "rain" -> "weather_rain"
-                "snow" -> "weather_snow"
-                "thunderstorm" -> "weather_thunder"
-                "drizzle" -> "weather_drizzle"
+
+                // 🌫 Visibility
                 "fog" -> "weather_fog"
                 "mist" -> "weather_mist"
+
+                // 🌦 Drizzle
+                "drizzle" -> "weather_drizzle"
+                "freezing drizzle" -> "weather_freezing_drizzle"
+
+                // 🌧 Rain
+                "rain" -> "weather_rain"
+                "heavy rain" -> "weather_rain_heavy"
+                "rain showers" -> "weather_rain_showers"
+                "violent rain" -> "weather_violent_rain"
+                "freezing rain" -> "weather_freezing_rain"
+
+                // ❄️ Snow
+                "snow" -> "weather_snow"
+                "heavy snow" -> "weather_snow_heavy"
+                "snow grains" -> "weather_snow_grains"
+                "snow showers" -> "weather_snow_showers"
+
+                // ⛈ Thunder
+                "thunderstorm" -> "weather_thunder"
+                "thunderstorm with hail" -> "weather_thunder_hail"
+
                 else -> "weather_unknown"
             }
+
 
             val fullName = baseName + suffix
             // get resource id by name

@@ -29,6 +29,9 @@ public final class ActivitySettingsBinding implements ViewBinding {
   public final RadioButton rbBw;
 
   @NonNull
+  public final RadioButton rbBwTransparent;
+
+  @NonNull
   public final RadioButton rbMalayalam;
 
   @NonNull
@@ -41,12 +44,13 @@ public final class ActivitySettingsBinding implements ViewBinding {
   public final TextView titleText;
 
   private ActivitySettingsBinding(@NonNull LinearLayout rootView, @NonNull Button btnApply,
-      @NonNull RadioButton rbBw, @NonNull RadioButton rbMalayalam,
-      @NonNull RadioButton rbTransparent, @NonNull RadioGroup rgTheme,
-      @NonNull TextView titleText) {
+      @NonNull RadioButton rbBw, @NonNull RadioButton rbBwTransparent,
+      @NonNull RadioButton rbMalayalam, @NonNull RadioButton rbTransparent,
+      @NonNull RadioGroup rgTheme, @NonNull TextView titleText) {
     this.rootView = rootView;
     this.btnApply = btnApply;
     this.rbBw = rbBw;
+    this.rbBwTransparent = rbBwTransparent;
     this.rbMalayalam = rbMalayalam;
     this.rbTransparent = rbTransparent;
     this.rgTheme = rgTheme;
@@ -92,6 +96,12 @@ public final class ActivitySettingsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.rb_bw_transparent;
+      RadioButton rbBwTransparent = ViewBindings.findChildViewById(rootView, id);
+      if (rbBwTransparent == null) {
+        break missingId;
+      }
+
       id = R.id.rb_malayalam;
       RadioButton rbMalayalam = ViewBindings.findChildViewById(rootView, id);
       if (rbMalayalam == null) {
@@ -116,8 +126,8 @@ public final class ActivitySettingsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySettingsBinding((LinearLayout) rootView, btnApply, rbBw, rbMalayalam,
-          rbTransparent, rgTheme, titleText);
+      return new ActivitySettingsBinding((LinearLayout) rootView, btnApply, rbBw, rbBwTransparent,
+          rbMalayalam, rbTransparent, rgTheme, titleText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

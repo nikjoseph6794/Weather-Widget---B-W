@@ -9,6 +9,7 @@ import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
 import com.WeatherWidget.weatherwidget.MyWeatherWidgetProvider.Companion.PREF_THEME
 import com.WeatherWidget.weatherwidget.MyWeatherWidgetProvider.Companion.THEME_BW
+import com.WeatherWidget.weatherwidget.MyWeatherWidgetProvider.Companion.THEME_BW_TRANSPARENT
 import com.WeatherWidget.weatherwidget.MyWeatherWidgetProvider.Companion.THEME_MALAYALAM
 import com.WeatherWidget.weatherwidget.MyWeatherWidgetProvider.Companion.THEME_TRANSPARENT
 import com.weatherwidget.app.R
@@ -102,18 +103,27 @@ class WeatherWorker(appContext: Context, params: WorkerParameters) : CoroutineWo
 
     private fun mapWeatherCodeToText(code: Int): String {
         return when (code) {
-            0 -> "Clear"
-            1,2,3 -> "Clouds"
+            0, 1 -> "Clear"
+            2, 3 -> "Clouds"
             45 -> "Fog"
             48 -> "Mist"
-            51,53,55,56,57 -> "Drizzle"
-            61,63,65,80,81,82 -> "Rain"
-            66,67 -> "Freezing Rain"
-            71,73,75,85,86,77 -> "Snow"
-            95,96,99 -> "Thunderstorm"
+            51, 53, 55 -> "Drizzle"
+            56, 57 -> "Freezing Drizzle"
+            61, 63 -> "Rain"
+            65 -> "Heavy Rain"
+            66, 67 -> "Freezing Rain"
+            71, 73 -> "Snow"
+            75 -> "Heavy Snow"
+            77 -> "Snow Grains"
+            80, 81 -> "Rain Showers"
+            82 -> "Violent Rain"
+            85, 86 -> "Snow Showers"
+            95 -> "Thunderstorm"
+            96, 99 -> "Thunderstorm with Hail"
             else -> "Unknown"
         }
     }
+
 
     private fun updateWidgets(condition: String) {
         val mgr = AppWidgetManager.getInstance(applicationContext)
@@ -156,25 +166,50 @@ class WeatherWorker(appContext: Context, params: WorkerParameters) : CoroutineWo
         val theme = prefs.getString(PREF_THEME, THEME_MALAYALAM) ?: THEME_MALAYALAM
         val key = condition.lowercase(Locale.ROOT)
 
-        val suffix = when (theme) {
-            THEME_BW -> "_bw"
-            THEME_TRANSPARENT -> "_tr"
-            else -> "_ml"
-        }
+         val suffix = when (theme) {
+             THEME_BW -> "_bw"
+             THEME_TRANSPARENT -> "_tr"
+             THEME_BW_TRANSPARENT -> "_bw_tr"
+             else -> "_ml"
+         }
 
-        val baseName = when (key) {
-            "clear" -> "weather_clear"
-            "clouds" -> "weather_clouds"
-            "rain" -> "weather_rain"
-            "snow" -> "weather_snow"
-            "thunderstorm" -> "weather_thunder"
-            "drizzle" -> "weather_drizzle"
-            "fog" -> "weather_fog"
-            "mist" -> "weather_mist"
-            else -> "weather_unknown"
-        }
 
-        val fullName = baseName + suffix
+         val baseName = when (key) {
+
+             // ☀️ Clear & clouds
+             "clear" -> "weather_clear"
+             "clouds" -> "weather_clouds"
+
+             // 🌫 Visibility
+             "fog" -> "weather_fog"
+             "mist" -> "weather_mist"
+
+             // 🌦 Drizzle
+             "drizzle" -> "weather_drizzle"
+             "freezing drizzle" -> "weather_freezing_drizzle"
+
+             // 🌧 Rain
+             "rain" -> "weather_rain"
+             "heavy rain" -> "weather_rain_heavy"
+             "rain showers" -> "weather_rain_showers"
+             "violent rain" -> "weather_violent_rain"
+             "freezing rain" -> "weather_freezing_rain"
+
+             // ❄️ Snow
+             "snow" -> "weather_snow"
+             "heavy snow" -> "weather_snow_heavy"
+             "snow grains" -> "weather_snow_grains"
+             "snow showers" -> "weather_snow_showers"
+
+             // ⛈ Thunder
+             "thunderstorm" -> "weather_thunder"
+             "thunderstorm with hail" -> "weather_thunder_hail"
+
+             else -> "weather_unknown"
+         }
+
+
+         val fullName = baseName + suffix
         val resId = context.resources.getIdentifier(fullName, "drawable", context.packageName)
         return if (resId != 0) resId else context.resources.getIdentifier(baseName + "_ml", "drawable", context.packageName)
     }
